@@ -1,0 +1,74 @@
+[
+  {
+    "IdPerfil": 5050,
+    "Nombre": "Banamex Formato Azuel de Sep 15",
+    "lblFecha": [
+      { "position": "absolute;" },
+      { "top": "1.5cm;" },
+      { "right": "7cm;" },
+      { "left": "14cm;" }
+    ],
+    "lblProveedor": [
+      { "position": "absolute;" },
+      { "top": "3.5cm;" },
+      { "right": "0cm;" },
+      { "left": "1cm;" }
+    ],
+    "lblMonto": [
+      { "position": "absolute;" },
+      { "top": "3.5cm;" },
+      { "right": "5.5cm;" },
+      { "left": "15cm;" }
+    ],
+    "lblMontoLetras": [
+      { "position": "absolute;" },
+      { "top": "4.5cm;" },
+      { "right": "0cm;" },
+      { "left": "1cm;" }
+    ],
+    "chequeLabel": [
+      { "position": "absolute;" },
+      { "top": "4.5cm;" },
+      { "right": "0cm;" },
+      { "left": "1cm;" }
+    ]
+  },
+  {
+    "IdPerfil": 6060,
+    "Nombre": "Banamex Formato Anterior de 2012",
+    "lblFecha": [
+      { "position": "absolute;" },
+      { "top": "1.7cm;" },
+      { "right": "8cm;" },
+      { "left": "14cm;" }
+    ],
+    "lblProveedor": [
+      { "position": "absolute;" },
+      { "top": "3.7cm;" },
+      { "right": "0cm;" },
+      { "left": "1.2cm;" }
+    ],
+    "lblMonto": [
+      { "position": "absolute;" },
+      { "top": "3.7cm;" },
+      { "right": "5.5cm;" },
+      { "left": "13cm;" }
+    ],
+    "lblMontoLetras": [
+      { "position": "absolute;" },
+      { "top": "4.6cm;" },
+      { "right": "0cm;" },
+      { "left": "0.8cm;" }
+    ],
+    "chequeLabel": [
+      { "position": "absolute;" },
+      { "top": "4.6cm;" },
+      { "right": "0cm;" },
+      { "left": "1.4cm;" }
+    ]
+  }
+]
+
+
+                
+             

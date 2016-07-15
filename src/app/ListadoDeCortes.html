@@ -1,0 +1,94 @@
+
+
+
+
+
+<h1>
+  {{title}}
+</h1>
+
+
+
+<br>
+
+
+<table class="table">
+    <tr>
+        <th>
+            Corte y Fecha  
+        </th>
+        <th>
+            Area
+        </th>
+        <th>
+            Tramite
+        </th>
+        <th>
+            Folio
+        </th>
+        <th>
+            Concepto
+        </th>
+        <th>
+            Beneficiario
+        </th>
+        <th>
+            Apartado
+        </th>
+        <th>
+            Monto
+        </th>
+        <th>
+            Moneda
+        </th>
+        <th>
+        </th>
+        
+    </tr>
+
+
+    <tr *ngFor="let itemCorte of ListaCortes | Valuarte" >
+        <td>
+         {{itemCorte.FECHA}}            
+        </td>
+        <td>
+        {{itemCorte.AREA}}
+        </td>
+        
+        <td>
+        {{itemCorte.TRAMITE}}
+        </td>
+        <td>
+        {{itemCorte.FOLIO}}
+        </td>
+        <td>
+        {{itemCorte.CONCEPTO}}
+        </td>
+        <td>
+        {{itemCorte.BENEFICIARIO}}
+        </td>
+        <td>
+        {{itemCorte.APARTADO}}
+        </td>
+        <td>
+        {{itemCorte.MONTO}}
+        </td>
+        <td>
+        {{itemCorte.MONEDA}}
+        </td>
+        
+        <td>
+            <input type="button" value="Banco"  (click)="DialogoPrevioCheque()" class="btn btn-default" />
+        </td>
+    </tr>
+
+
+</table>
+
+
+  <dialogo-chequeprevio>
+
+      
+      
+  </dialogo-chequeprevio>
+

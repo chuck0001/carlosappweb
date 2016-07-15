@@ -1,0 +1,58 @@
+<head>
+  <style type="text/css">
+    body{background-color:#ffffff;}
+  </style>	
+</head>
+
+
+
+
+<h1>
+  {{title}}
+</h1>
+
+
+<select>
+  <option  *ngFor="let value of objetos | Valuarte" >{{value.Nombre}}</option>
+</select>
+
+<br>
+<br>
+<br>
+
+<table class="table">
+    <tr>
+        <th>
+            {{otro[0].Fecha}}  
+        </th>
+        <th>
+            Beneficiario
+        </th>
+        <th>
+            Importe
+        </th>
+        <th>
+        </th>
+        
+    </tr>
+
+
+    <tr >
+        <td>
+            {{otro[0].Fecha}}            
+        </td>
+        <td>
+        {{otro[2].Beneficiario}}
+        </td>
+        
+        <td>
+        {{otro[3].Importe}}
+        </td>
+        
+        <td>
+            <input type="button" value="Imprimir"  (click)="funcionPrint()" class="btn btn-default" />
+        </td>
+    </tr>
+
+
+</table>

@@ -1,3 +1,46 @@
+<head>
+  <style type="text/css">
+    body{background-color:#ffffff;}
+  </style>	
+</head>
+
+
+
+
 <h1>
   {{title}}
 </h1>
+{{alguienObj}}
+
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            Titulo Valor
+        </th>
+        <th>
+            Vacio
+        </th>
+        <th></th>
+    </tr>
+
+
+    <tr *ngFor="#value of otro | Valuarte">
+        <td>
+              {{value.Nombre}}
+            
+        </td>
+        <td>
+            
+        </td>
+        <td>
+            <input type="button" value="Create"  class="btn btn-default" />
+            <input type="button" value="Edit"  class="btn btn-default" />
+            <input type="button" value="Delete" class="btn btn-default" />
+        </td>
+    </tr>
+
+
+</table>
